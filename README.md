@@ -44,3 +44,17 @@ Then include the js and initialize LazyList:
     const myLazyList = new LazyList('#my-component', false, true);
 </script>
 ```
+
+## How to build
+
+To build a minified version of the script, run:
+
+```bash
+npm run build
+```
+
+This will output a minified version in the `public` folder
+
+## Live demo
+
+https://lazy-list.vercel.app/
