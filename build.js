@@ -4,7 +4,7 @@ const ncp = require('ncp').ncp;
 const UglifyJS = require('uglify-js');
 
 const srcDir = path.join(__dirname, 'src');
-const distDir = path.join(__dirname, 'dist');
+const distDir = path.join(__dirname, 'public');
 
 // Create the dist directory if it doesn't exist
 fs.mkdir(distDir, { recursive: true }, (err) => {
