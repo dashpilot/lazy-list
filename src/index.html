@@ -7,9 +7,10 @@
     </head>
     <body>
         <div id="my-component" class="container mt-5">
-            <!-- define the template for the list-items -->
+            <!-- use a template tag to define the template for the list-items -->
             <template>
                 <li class="list-group-item d-flex gap-3">
+                    <!-- fields can be anything you like, type: input, textarea or select -->
                     <input type="text" class="form-control" name="title" placeholder="title" value="" />
                     <input type="text" class="form-control" name="subtitle" placeholder="subtitle" value="" />
                     <!-- the delete button has an attribute of data-action="delete" -->
@@ -21,7 +22,7 @@
             <button class="btn btn-outline-secondary mb-3" data-action="add">+</button>
 
             <ul class="list-group">
-                <!-- This is where the list items will appear -->
+                <!-- This is where the list items will appear, the element should be a 'ul' -->
             </ul>
 
             <!-- the save button has an attribute of data-action="add" -->
